@@ -12,13 +12,15 @@ creer la base de données sur adminer.php en se connectant a 192.168.33.10/admin
 ACF permet de rajouter des informations sur un post
 dans acf ajouter un champs en suite publier revenir dans article et rajouter une categorie et selectionner recette(le nom du champ qu'on a créé dans acf  )
 elementor build
-dans article cliquer sur le boutton modifier avec elementor
+dans article cliquer sur le bouton modifier avec elementor
 flamingo pour formulaire de contact avec contact form 7
-pour ajouer le formulaire
-aller dabs page exemple modifier avec editor et choisir shorcode et colller le lien qui se trouve sur la partie formuliare
+pour ajouter le formulaire
+aller dans page exemple modifier avec editor et choisir shorcode et coller le lien qui se trouve sur la partie formuliare
 
 WP Super Cache
 Autoptimize : optimise es feuilles de style et script js
 WebP Express converti les jp du site en webp
 akismet anti-spam
 polylang pour gerer le multilangue sur un site ou aussi WPML
+GDPR Cookie consent
+WooCommerce pour ajouter une boutique au site
