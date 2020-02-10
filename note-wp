@@ -1,0 +1,24 @@
+sous linux lancer le script en ligne de commande bash awsome.sh
+en suite cd /var/www/html et lancer bash install.sh
+telecharger le dossier worpdpress sur le site worpdpress.org et le mettre dans le dossier data
+http://192.168.33.10/wordpress/wp-admin/install.php
+creer la base de données sur adminer.php en se connectant a 192.168.33.10/adminer.php root mp1234
+ mp worpdpress leilameb131086
+
+ pour un ajouter un theme aller sur apparance theme et ajouter le theme se telechargera dans le dossier wp-content ou se trouvent tous les autres themes avec pluging etc
+ Plugins utiles
+ Contat Form 7 pour faire des formulaires de contact
+
+ACF permet de rajouter des informations sur un post
+dans acf ajouter un champs en suite publier revenir dans article et rajouter une categorie et selectionner recette(le nom du champ qu'on a créé dans acf  )
+elementor build
+dans article cliquer sur le boutton modifier avec elementor
+flamingo pour formulaire de contact avec contact form 7
+pour ajouer le formulaire
+aller dabs page exemple modifier avec editor et choisir shorcode et colller le lien qui se trouve sur la partie formuliare
+
+WP Super Cache
+Autoptimize : optimise es feuilles de style et script js
+WebP Express converti les jp du site en webp
+akismet anti-spam
+polylang pour gerer le multilangue sur un site ou aussi WPML
