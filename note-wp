@@ -66,3 +66,7 @@ function add_promotional_text() {
 }
 dans header.php du theme qu'on utimise a la fin de fichier ajouter ceci
 do_action ( '__after_header' );
+
+//créer un plugin back to top avec un bouton et un fichier js
+
+https://www.cssigniter.com/add-back-top-button-wordpress-website/
