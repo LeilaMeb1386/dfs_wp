@@ -1,0 +1,42 @@
+2020-02-11T11:04:27+00:00 CRITICAL Uncaught Error: Call to undefined function defind() in /var/www/html/wordpress/wp-content/plugins/youtube/youtube.php:15
+Stack trace:
+#0 /var/www/html/wordpress/wp-admin/includes/plugin.php(650): include_once()
+#1 /var/www/html/wordpress/wp-admin/plugins.php(44): activate_plugin()
+#2 {main}
+  thrown dans /var/www/html/wordpress/wp-content/plugins/youtube/youtube.php à la ligne 15
+
+2020-02-11T11:04:30+00:00 CRITICAL Uncaught Error: Call to undefined function defind() in /var/www/html/wordpress/wp-content/plugins/youtube/youtube.php:15
+Stack trace:
+#0 /var/www/html/wordpress/wp-admin/includes/plugin.php(2223): include()
+#1 /var/www/html/wordpress/wp-admin/plugins.php(175): plugin_sandbox_scrape()
+#2 {main}
+  thrown dans /var/www/html/wordpress/wp-content/plugins/youtube/youtube.php à la ligne 15
+
+2020-02-11T11:04:30+00:00 CRITICAL Uncaught Error: Call to undefined function defind() in /var/www/html/wordpress/wp-content/plugins/youtube/youtube.php:15
+Stack trace:
+#0 /var/www/html/wordpress/wp-admin/includes/plugin.php(2223): include()
+#1 /var/www/html/wordpress/wp-admin/plugins.php(175): plugin_sandbox_scrape()
+#2 {main}
+  thrown dans /var/www/html/wordpress/wp-content/plugins/youtube/youtube.php à la ligne 15
+
+2020-02-11T11:06:39+00:00 CRITICAL Uncaught Error: Call to undefined function defind() in /var/www/html/wordpress/wp-content/plugins/youtube/youtube.php:15
+Stack trace:
+#0 /var/www/html/wordpress/wp-admin/includes/plugin.php(650): include_once()
+#1 /var/www/html/wordpress/wp-admin/plugins.php(44): activate_plugin()
+#2 {main}
+  thrown dans /var/www/html/wordpress/wp-content/plugins/youtube/youtube.php à la ligne 15
+
+2020-02-11T11:06:42+00:00 CRITICAL Uncaught Error: Call to undefined function defind() in /var/www/html/wordpress/wp-content/plugins/youtube/youtube.php:15
+Stack trace:
+#0 /var/www/html/wordpress/wp-admin/includes/plugin.php(2223): include()
+#1 /var/www/html/wordpress/wp-admin/plugins.php(175): plugin_sandbox_scrape()
+#2 {main}
+  thrown dans /var/www/html/wordpress/wp-content/plugins/youtube/youtube.php à la ligne 15
+
+2020-02-11T11:06:42+00:00 CRITICAL Uncaught Error: Call to undefined function defind() in /var/www/html/wordpress/wp-content/plugins/youtube/youtube.php:15
+Stack trace:
+#0 /var/www/html/wordpress/wp-admin/includes/plugin.php(2223): include()
+#1 /var/www/html/wordpress/wp-admin/plugins.php(175): plugin_sandbox_scrape()
+#2 {main}
+  thrown dans /var/www/html/wordpress/wp-content/plugins/youtube/youtube.php à la ligne 15
+
