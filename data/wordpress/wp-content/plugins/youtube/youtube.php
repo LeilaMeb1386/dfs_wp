@@ -28,11 +28,9 @@ if(!defined('ABSPATH')) {
    if(!isset($attrs['source']) or empty($attrs['source'])) {
      return $output;
    }
+   $url=sprintf('https://www.youtube-nocookie.com/embed/%s?rel=&amp:control=0',$attrs['source']);
 
-   $url=sprintf('http://wwww.youtube-noccokie.com/emded/%s?rel=0&amp;controls=0',
-   $attrs['source']);
-
-   $output.=sprintf('<iframe width="100%%"height="315"src"%s" frameborder="0"
-   allow="autoplay; encrypted-media" allowfullscreen><:iframme>', $url);
+   $output.=sprintf('<iframe width="100%%" height="315" src="%s" frameborder="0"
+   allow="autoplay; encrypted-media" allowfullscreen></iframme>', $url);
    return $output;
  }
