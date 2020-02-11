@@ -40,3 +40,48 @@ Stack trace:
 #2 {main}
   thrown dans /var/www/html/wordpress/wp-content/plugins/youtube/youtube.php à la ligne 15
 
+2020-02-11T14:30:49+00:00 CRITICAL Uncaught Error: Call to undefined function write_log() in /var/www/html/wordpress/wp-content/plugins/update.php:18
+Stack trace:
+#0 /var/www/html/wordpress/wp-includes/class-wp-hook.php(288): pem_get_header()
+#1 /var/www/html/wordpress/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters()
+#2 /var/www/html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action()
+#3 /var/www/html/wordpress/wp-includes/general-template.php(31): do_action()
+#4 /var/www/html/wordpress/wp-content/themes/twentytwenty/singular.php(12): get_header()
+#5 /var/www/html/wordpress/wp-includes/template-loader.php(98): include('/var/www/html/w...')
+#6 /var/www/html/wordpress/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#7 /var/www/html/wordpress/index.php(17): require('/var/www/html/w...')
+#8 {main}
+  thrown dans /var/www/html/wordpress/wp-content/plugins/update.php à la ligne 18
+
+2020-02-11T14:42:14+00:00 CRITICAL Uncaught Error: Call to undefined function write_log() in /var/www/html/wordpress/wp-content/plugins/update.php:20
+Stack trace:
+#0 /var/www/html/wordpress/wp-includes/class-wp-hook.php(290): pem_arguments()
+#1 /var/www/html/wordpress/wp-includes/plugin.php(206): WP_Hook->apply_filters()
+#2 /var/www/html/wordpress/wp-content/plugins/update.php(24): apply_filters()
+#3 /var/www/html/wordpress/wp-admin/includes/plugin.php(650): include_once('/var/www/html/w...')
+#4 /var/www/html/wordpress/wp-admin/plugins.php(44): activate_plugin()
+#5 {main}
+  thrown dans /var/www/html/wordpress/wp-content/plugins/update.php à la ligne 20
+
+2020-02-11T14:42:17+00:00 CRITICAL Uncaught Error: Call to undefined function write_log() in /var/www/html/wordpress/wp-content/plugins/update.php:20
+Stack trace:
+#0 /var/www/html/wordpress/wp-includes/class-wp-hook.php(290): pem_arguments()
+#1 /var/www/html/wordpress/wp-includes/plugin.php(206): WP_Hook->apply_filters()
+#2 /var/www/html/wordpress/wp-content/plugins/update.php(24): apply_filters()
+#3 /var/www/html/wordpress/wp-admin/includes/plugin.php(2223): include('/var/www/html/w...')
+#4 /var/www/html/wordpress/wp-admin/plugins.php(175): plugin_sandbox_scrape()
+#5 {main}
+  thrown dans /var/www/html/wordpress/wp-content/plugins/update.php à la ligne 20
+
+2020-02-11T14:42:17+00:00 CRITICAL Uncaught Error: Call to undefined function write_log() in /var/www/html/wordpress/wp-content/plugins/update.php:20
+Stack trace:
+#0 /var/www/html/wordpress/wp-includes/class-wp-hook.php(290): pem_arguments()
+#1 /var/www/html/wordpress/wp-includes/plugin.php(206): WP_Hook->apply_filters()
+#2 /var/www/html/wordpress/wp-content/plugins/update.php(24): apply_filters()
+#3 /var/www/html/wordpress/wp-admin/includes/plugin.php(2223): include('/var/www/html/w...')
+#4 /var/www/html/wordpress/wp-admin/plugins.php(175): plugin_sandbox_scrape()
+#5 {main}
+  thrown dans /var/www/html/wordpress/wp-content/plugins/update.php à la ligne 20
+
+2020-02-11T15:15:57+00:00 CRITICAL syntax error, unexpected end of file dans /var/www/html/wordpress/wp-content/themes/twentytwenty/header.php à la ligne 189
+

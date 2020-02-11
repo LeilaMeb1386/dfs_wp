@@ -27,4 +27,37 @@ WooCommerce pour ajouter une boutique au site
 
 
 pour creer un theme enfant dans wp-content theme creer un nouveau dossier avec le nom du thme-child
-créer un plugin dans wp-content plugin créer un nouveau dossier youtube par exemple et ajouter un fichier youtube.php en suite sur l'interface l'activer dans les extentions 
+créer un plugin dans wp-content plugin créer un nouveau dossier youtube par exemple et ajouter un fichier youtube.php en suite sur l'interface l'activer dans les extentions
+
+dans elementor chsoir une zone shorcode et ajouter [video source=n5rMnfqL5Os] pour que la video s'afiche
+
+action et filtre
+add_filter('han_se_vante','modestize')
+
+function modestize($vantardise){
+return str_replace('le meilleur','doué, mais leia l'est encore plus',
+$vandtardize);
+}
+
+apply_filter('han_se_vante','je suis le meilleur');
+le plugin update que j'ai crée j'ai utilisé wordpress hook title dans google
+on voulait ajouter it akademy.title dans le titre
+
+ne pas oublier de desactiver Yoast SEO sinon le filtre ne voudra pas marcher
+
+//j'ai utilisé ceci pour ajouter du text apre le header
+
+dans plugin
+créer un fichier.php et mettre
+
+// Add some text after the header
+add_action( '__after_header' , 'add_promotional_text' );
+function add_promotional_text() {
+  // If we're not on the home page, do nothing
+  if ( !is_front_page() )
+    return;
+  // Echo the html
+  echo "<div>Special offer! June only: Free chocolate for everyone!</div>";
+}
+dans header.php du theme qu'on utimise a la fin de fichier ajouter ceci
+do_action ( '__after_header' );
