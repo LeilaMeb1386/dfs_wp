@@ -1,0 +1,60 @@
+2020-02-12T10:28:03+00:00 CRITICAL Uncaught Error: Call to undefined function add_theme_suppot() in /var/www/html/wordpress/wp-content/themes/my-theme/functions.php:7
+Stack trace:
+#0 /var/www/html/wordpress/wp-settings.php(497): include()
+#1 /var/www/html/wordpress/wp-config.php(90): require_once('/var/www/html/w...')
+#2 /var/www/html/wordpress/wp-load.php(37): require_once('/var/www/html/w...')
+#3 /var/www/html/wordpress/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/wordpress/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown dans /var/www/html/wordpress/wp-content/themes/my-theme/functions.php à la ligne 7
+
+2020-02-12T10:36:23+00:00 CRITICAL Uncaught Error: Call to undefined function add_theme_suppot() in /var/www/html/wordpress/wp-content/themes/my-theme/functions.php:7
+Stack trace:
+#0 /var/www/html/wordpress/wp-settings.php(497): include()
+#1 /var/www/html/wordpress/wp-config.php(90): require_once('/var/www/html/w...')
+#2 /var/www/html/wordpress/wp-load.php(37): require_once('/var/www/html/w...')
+#3 /var/www/html/wordpress/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/wordpress/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown dans /var/www/html/wordpress/wp-content/themes/my-theme/functions.php à la ligne 7
+
+2020-02-12T10:36:35+00:00 CRITICAL Uncaught Error: Call to undefined function add_theme_suppot() in /var/www/html/wordpress/wp-content/themes/my-theme/functions.php:7
+Stack trace:
+#0 /var/www/html/wordpress/wp-settings.php(497): include()
+#1 /var/www/html/wordpress/wp-config.php(90): require_once('/var/www/html/w...')
+#2 /var/www/html/wordpress/wp-load.php(37): require_once('/var/www/html/w...')
+#3 /var/www/html/wordpress/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#4 /var/www/html/wordpress/wp-admin/themes.php(10): require_once('/var/www/html/w...')
+#5 {main}
+  thrown dans /var/www/html/wordpress/wp-content/themes/my-theme/functions.php à la ligne 7
+
+2020-02-12T10:41:43+00:00 CRITICAL Uncaught Error: Call to undefined function add_theme_suppot() in /var/www/html/wordpress/wp-content/themes/my-theme/functions.php:7
+Stack trace:
+#0 /var/www/html/wordpress/wp-settings.php(497): include()
+#1 /var/www/html/wordpress/wp-config.php(90): require_once('/var/www/html/w...')
+#2 /var/www/html/wordpress/wp-load.php(37): require_once('/var/www/html/w...')
+#3 /var/www/html/wordpress/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#4 /var/www/html/wordpress/wp-admin/themes.php(10): require_once('/var/www/html/w...')
+#5 {main}
+  thrown dans /var/www/html/wordpress/wp-content/themes/my-theme/functions.php à la ligne 7
+
+2020-02-12T10:43:46+00:00 CRITICAL Uncaught Error: Call to undefined function add_theme_suppot() in /var/www/html/wordpress/wp-content/themes/my-theme/functions.php:7
+Stack trace:
+#0 /var/www/html/wordpress/wp-settings.php(497): include()
+#1 /var/www/html/wordpress/wp-config.php(90): require_once('/var/www/html/w...')
+#2 /var/www/html/wordpress/wp-load.php(37): require_once('/var/www/html/w...')
+#3 /var/www/html/wordpress/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/wordpress/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown dans /var/www/html/wordpress/wp-content/themes/my-theme/functions.php à la ligne 7
+
+2020-02-12T10:44:30+00:00 CRITICAL Uncaught Error: Call to undefined function add_theme_suppot() in /var/www/html/wordpress/wp-content/themes/my-theme/functions.php:7
+Stack trace:
+#0 /var/www/html/wordpress/wp-settings.php(497): include()
+#1 /var/www/html/wordpress/wp-config.php(90): require_once('/var/www/html/w...')
+#2 /var/www/html/wordpress/wp-load.php(37): require_once('/var/www/html/w...')
+#3 /var/www/html/wordpress/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/wordpress/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown dans /var/www/html/wordpress/wp-content/themes/my-theme/functions.php à la ligne 7
+
