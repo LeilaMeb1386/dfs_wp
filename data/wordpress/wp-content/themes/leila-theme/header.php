@@ -6,7 +6,7 @@
    <link rel="profile" href="http://gmpg.org/xfn/11">
    <?php wp_head(); ?>
  </head>
- <body <?php body_class(); ?>>
+ <body id="page" <?php body_class(); ?>>
    <header class="masthead bg-primary text-white text-center">
   <div class="container d-flex align-items-center flex-column">
 

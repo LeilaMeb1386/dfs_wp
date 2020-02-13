@@ -31,6 +31,6 @@ if(!defined('ABSPATH')) {
    $url=sprintf('https://www.youtube-nocookie.com/embed/%s?rel=&amp:control=0',$attrs['source']);
 
    $output.=sprintf('<iframe width="100%%" height="315" src="%s" frameborder="0"
-   allow="autoplay; encrypted-media" allowfullscreen></iframme>', $url);
+   allow="autoplay; encrypted-media" allowfullscreen></iframe>', $url);
    return $output;
  }

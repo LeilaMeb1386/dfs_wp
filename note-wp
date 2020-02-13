@@ -78,4 +78,12 @@ Lien créer un the de a à z
 https://www.wppourlesnuls.com/notions-de-base-pour-creer-un-theme-wordpress/
 
 
-//les plugin serietv, update et back on ete créé par nos soins 
+//les plugin serietv, update et back on ete créé par nos soins
+dans fichier wp_config.php mettre cette ligne a faulse define( 'WP_DEBUG', true );
+pour debuger
+
+
+parte ou on a changé le projet starbootstrap-freelance qui est basique en html css js boostrap en wardpress
+pour ceréer un theme de 0 on créé une page functions.php (important que ca soit au pluriels)
+un style.css ou l'on met le nom du theme qui s'affichera par la suite sur le backoffice worpdpress
+dans functions on exporte tous les js css etc et en add function pour executer le style
