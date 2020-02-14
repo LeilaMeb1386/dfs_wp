@@ -1,4 +1,4 @@
-sous linux lancer le script en ligne de commande bash awsome.sh
+sous linux lancer le script en ligne de commande bash awsome.sh ne pas oublier de telecharger wordpress et de copier le dossier dans le data
 en suite cd /var/www/html et lancer bash install.sh
 telecharger le dossier worpdpress sur le site worpdpress.org et le mettre dans le dossier data
 http://192.168.33.10/wordpress/wp-admin/install.php
@@ -87,3 +87,12 @@ parte ou on a changé le projet starbootstrap-freelance qui est basique en html 
 pour ceréer un theme de 0 on créé une page functions.php (important que ca soit au pluriels)
 un style.css ou l'on met le nom du theme qui s'affichera par la suite sur le backoffice worpdpress
 dans functions on exporte tous les js css etc et en add function pour executer le style
+
+installer updraft plus aller dans reglage tout en bas de update upgraft cliquer sur sauvegarder plus decocher la deuxieme ligne et enregister
+le dossier se touvra dans wp_content updraft
+
+mp wordpress de la validation  adrresse 192.168.33.50
+
+Formulaire de contact :
+installer le plugin contact form 7 cliquer dessus une fois installé et copier le shrt code de celui ci en suite choisir une page et utiliser elementor pour modifier la page
+choisir une zone code cours et coller le code du formulaire et celui ci s'affiche
